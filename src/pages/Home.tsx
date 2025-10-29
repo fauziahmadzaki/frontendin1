@@ -69,7 +69,7 @@ function App() {
                 depan. Buat kami, belajar adalah perjalanan yang nggak pernah
                 berhenti. Karena itu, kami terus berinovasi dan mendengarkan
                 masukan dari kamu semua, supaya platform ini selalu tumbuh
-                bareng dengan penggunanya
+                bareng dengan penggunanya.
               </p>
             </div>
           </div>
