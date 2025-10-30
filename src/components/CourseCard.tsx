@@ -1,9 +1,17 @@
 import { Button } from "./Button";
 import image from "/UTBK.jpeg";
+import { motion } from "motion/react";
 
 export const CourseCard: React.FC = () => {
   return (
-    <div className="border border-gray-200 shadow-md rounded-xl overflow-hidden w-full h-full">
+    <motion.div
+      initial={{ opacity: 0, translateY: 50 }}
+      whileInView={{ opacity: 1, translateY: 0 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}
+      viewport={{ once: true, amount: 0.3 }}
+      className="border border-gray-200 shadow-md rounded-xl overflow-hidden w-full h-full"
+    >
       <div className="border-b border-gray-200">
         <img src={image} alt="" />
       </div>
@@ -27,6 +35,6 @@ export const CourseCard: React.FC = () => {
           </Button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
