@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { AnimatePresence, motion } from "motion/react";
+import { motion } from "motion/react";
 
 import { Navlink } from "./Navlink";
 import { NavlinkMenu } from "./NavlinkMenu";
